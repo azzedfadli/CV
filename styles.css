@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#navbar{
+height: 40px;
+    display: flex;
+    justify-content: space-between;
+  background: linear-gradient(to bottom, #DCDCDC 0%, #ffffff 100%);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-bottom: 3px solid #1E90FF
+}
+
+
+
+#navbar h2 {
+  color: blue;
+display: flex;
+flex-direction: row;
+align-items: center;
+
+
+}
+#navbar h2 a{
+  border: 4px inset #1E90FF;
+  text-decoration: none;
+  margin-left: 19px;
+}
+
+ul{
+list-style-type: none;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+li a {
+  text-decoration: none;
+  color: #3399ff;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0 19px;
+  transition: color 0.6s;
+}
+
+li a:hover{
+  color:black;
+}
+
+.top-container-content {
+  background-image: url("images/laptop grey.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1350px 800px;
+  height: 615px;;
+}
+
+.profile {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  top:45px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+    height: 614px
+}
+
+.name {
+  font-weight: bolder;
+  font-style: italic sans serif;
+  font-size:50px;
+}
+
+.btn a {
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+  text-decoration: none;
+  border: 3px solid #1E90FF;
+  padding: 10px 40px;
+  border-radius: 10px;
+  line-height: 100px;
+  transition: background 0.9s;
+}
+
+.btn a:hover {
+  background: #1E90FF;
+}
+
+
+
+.desc {
+  line-height: 60px;
+  font-size: 40px;
+}
+#about{
+  padding-top: 90px;
+  text-align: center;
+   background: linear-gradient(to bottom, white 0%, silver 100%);
+   height: 570px;
+}
+hr{
+  width: 30%;
+  border: 2px dotted #1E90FF;
+}
+.overview{
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 20px;
+}
+
+
+.about-content{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+
+}
+.skills-content{
+background: linear-gradient(to bottom, white 0%, silver 100%);
+  text-align: center;
+  height: 600px;
+  margin-top :100px;
+  padding: 50px
+
+
+}
+.logo{
+  width: 72px;
+  height: 85px;
+}
+.skills-rows{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+.skill-row{
+  padding-top: 90px;
+  display:flex;
+justify-content:space-around;
+}
+
+.contact-content{
+background: linear-gradient(to bottom, white 0%, silver 100%);
+  text-align: center;
+  height: 500px;
+  margin-top :60px;
+
+
+}
+.first-contact{
+  margin-top: 5px;;
+}
+
+.card{
+  width: 50px;
+  height: 50px;
+    margin-right: 10px;
+}
+.email{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+font-size: 30px;
+margin-left: 35%;
+padding-bottom: 40px;
+margin-top: 10px;
+padding: 10px;
+
+}
+
+.phone{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 42%;
+  font-size:25px;
+  margin-top: 30px;
+
+}
+.copyright{
+  margin-top: 100px;
+}
+.receiver{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
