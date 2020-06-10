@@ -1,15 +1,12 @@
 body {
   margin: 0;
-  height: 100%;
+
 }
 
 html {
   scroll-behavior: smooth;
 }
-@viewport{
-  width: device-width;
-  zoom:1.0;
-}
+
 
 #navbar{
 height: 40px;
