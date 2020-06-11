@@ -2,6 +2,7 @@
 
 body {
 margin:0;
+
 }
 
 html {
@@ -62,7 +63,7 @@ li a:hover{
   background-image: url("images/laptop grey.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 1350px 800px;
+  background-size: 1350px 1350px;
   height: 92vh;
 
 
