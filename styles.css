@@ -1,7 +1,7 @@
 
 
 body {
-
+margin:0;
 }
 
 html {
@@ -63,7 +63,8 @@ li a:hover{
   background-position: center;
   background-repeat: no-repeat;
   background-size: 1350px 800px;
-  height: 615px;
+  height: 92vh;
+
 
 
 }
@@ -75,12 +76,13 @@ li a:hover{
   text-align: center;
   justify-content: center;
   position: absolute;
-  top:43px;
+  top:42px;
   bottom: 0;
   left: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.3);
-  height:614px;
+  height: 92%;
+
 
 }
 
