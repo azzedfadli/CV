@@ -231,8 +231,6 @@ margin-left: 10%;
     height:auto;
   }
 .top-container-content{
-
-
   background-size: auto;
 
 }
@@ -244,7 +242,7 @@ margin-left: 10%;
 .profile{
   width:auto;
    text-align: center;
-   height:88%;
+   height:auto;
 }
 .name {
   font-size:auto;
