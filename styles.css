@@ -13,7 +13,7 @@ html {
 
 #navbar{
 
-height: 60px;
+height: 45px;
     display: flex;
     justify-content: space-between;
   background: linear-gradient(to bottom, #DCDCDC 0%, #ffffff 100%);
